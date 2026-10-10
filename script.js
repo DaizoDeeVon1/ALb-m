@@ -571,7 +571,7 @@ const settings = {
   texts: {},          // data-edit="anahtar" olan yazıların yeni halleri
   albums: null,       // değiştirilmiş albüm adları
   letters: null,      // değiştirilmiş mektuplar
-  startDate: null,    // 'YYYY-MM-DD'
+  startDate: '2026-09-09',    // 'YYYY-MM-DD'
   pink: null,         // vurgu rengi
   wine: null,         // bordo rengi
 };
@@ -609,7 +609,7 @@ function saveSettings() {
 // Ayar varsa onu, yoksa dosyanın başındaki varsayılanı kullanır
 const getAlbums    = () => settings.albums  || CONFIG.albums;
 const getLetters   = () => settings.letters || LETTERS;
-const getStartDate = () =>
+const getStartDate = () => 
   settings.startDate ? new Date(settings.startDate + 'T00:00:00') : CONFIG.startDate;
 
 // Mektupları ilk düzenlemede ayarlara kopyalar
