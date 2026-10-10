@@ -571,7 +571,7 @@ const settings = {
   texts: {},          // data-edit="anahtar" olan yazıların yeni halleri
   albums: null,       // değiştirilmiş albüm adları
   letters: null,      // değiştirilmiş mektuplar
-  startDate: '2026-09-09',    // 'YYYY-MM-DD'
+  startDate: '2026-08-10',    // 'YYYY-MM-DD'
   pink: null,         // vurgu rengi
   wine: null,         // bordo rengi
 };
